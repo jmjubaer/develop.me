@@ -11,10 +11,10 @@ import SkillsCard from "../shered/UI/SkillsCard";
 import SectionTag from "../shered/UI/SectionTag";
 const Skills = () => {
     return (
-        <div className='main_container -mt-14 text-white bg-black rounded-[40px] p-16'>
+        <div className='-mt-14 bg-black main_container secondary_section_bg'>
             <div className='flex items-center justify-between'>
                 <div className=''>
-                    <SectionTag text="Why Choose me"/>
+                    <SectionTag text='Why Choose me' />
                     <h2 className='font-bold text-[58px] mt-10 leading-normal'>
                         My Extensive <br /> List of Skills
                     </h2>
@@ -26,7 +26,7 @@ const Skills = () => {
                     </p>
                 </div>
             </div>
-            <div className=''>
+            <div className='mt-14'>
                 {/* todo: change  navigator */}
                 <Swiper
                     slidesPerView={3}
@@ -34,7 +34,7 @@ const Skills = () => {
                     loop={true}
                     navigation={true}
                     modules={[Navigation]}
-                    className='skills-swiper'>
+                    className='skills-swiper '>
                     <SwiperSlide>
                         <SkillsCard
                             title='HTML & CSS'

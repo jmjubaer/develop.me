@@ -4,7 +4,7 @@ import WorkProcessCard from "../shered/UI/WorkProcessCard";
 
 const WorkProcess = () => {
     return (
-        <div className='main_container text-white bg-[#141414] rounded-[40px] p-16'>
+        <div className='bg-[#141414] main_container secondary_section_bg'>
             <div className='relative'>
                 <div className='absolute top-1/2 -translate-y-1/2'>
                     <SectionTag text='Work Process' />

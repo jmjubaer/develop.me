@@ -4,9 +4,9 @@ import Button from "../shered/UI/Button";
 
 const Banner = () => {
     return (
-        <div className='banner_bg min-h-screen'>
+        <div className='banner_bg min-h-screen '>
             <Navbar />
-            <div className='main_container my-28'>
+            <div className='main_container pt-28 pb-44'>
                 <h1 className='title_text'>
                     Trusted <span className='text_highlight'>Partner</span> for{" "}
                     <br /> Your Website{" "}

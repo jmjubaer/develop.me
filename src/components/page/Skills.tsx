@@ -11,7 +11,7 @@ import SkillsCard from "../shered/UI/SkillsCard";
 import SectionTag from "../shered/UI/SectionTag";
 const Skills = () => {
     return (
-        <div className='main_container text-white bg-black rounded-[40px] p-16'>
+        <div className='main_container -mt-14 text-white bg-black rounded-[40px] p-16'>
             <div className='flex items-center justify-between'>
                 <div className=''>
                     <SectionTag text="Why Choose me"/>

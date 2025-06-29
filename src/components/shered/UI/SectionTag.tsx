@@ -2,7 +2,7 @@ import { FaArrowDown } from "react-icons/fa";
 
 const SectionTag = ({ text }: { text: string }) => {
     return (
-        <div className='flex items-center pt-32'>
+        <div className='flex items-center'>
             <p className='border  p-4 w-fit rounded-full'>
                 <FaArrowDown />
             </p>

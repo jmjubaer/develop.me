@@ -8,8 +8,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-primary: var(--font-bricolage-grotesque);
+  --font-secondary: var(--font-bebas-neue);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,4 +17,21 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+.container_lg{
+  @apply w-[96%] mx-auto max-w-[1440px]
+}
+.main_container{ 
+  @apply mx-auto max-w-[1340px] w-[96%]
+}
+
+
+
+.banner_bg{
+  background: url('../assets/banner-vecotor.png') top left;
+}
+
+.button_icon{
+  @apply border rounded-full 
 }

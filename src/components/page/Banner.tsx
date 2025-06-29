@@ -21,18 +21,24 @@ const Banner = () => {
                     <div className='w-full relative'>
                         <div className='-rotate-90 h-fit absolute -left-15 -top-8'>
                             <p className='text-lg '>@williamrey</p>
-                            <div className='flex items-center gap-5 mt-5'>
-                                <p className=' font-bold'>
+                            <ul className='flex items-center gap-5 mt-5'>
+                                <li>
                                     <hr className='h-[2px] w-11 bg-black' />
-                                </p>
-                                <FaFacebook className='text-2xl' />
-                                <FaInstagram className='text-2xl' />
-                                <FaTwitter className='text-2xl' />
-                            </div>
+                                </li>
+                                <li>
+                                    <FaFacebook className='text-2xl' />
+                                </li>
+                                <li>
+                                    <FaInstagram className='text-2xl' />
+                                </li>
+                                <li>
+                                    <FaTwitter className='text-2xl' />
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div className='col-span-3'>
-                        <p className="w-3/4 text-lg mb-10">
+                        <p className='w-3/4 text-lg mb-10'>
                             Building the worlds best marketing websites for over
                             a decade. Your trusted partner for strategy, design,
                             and dev.

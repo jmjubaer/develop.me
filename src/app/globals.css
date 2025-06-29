@@ -1,37 +1,45 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --background: #ffffff;
+    --foreground: #171717;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-primary: var(--font-bricolage-grotesque);
-  --font-secondary: var(--font-bebas-neue);
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --font-primary: var(--font-bricolage-grotesque);
+    --font-secondary: var(--font-bebas-neue);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
 }
 
-.container_lg{
-  @apply w-[96%] mx-auto max-w-[1440px]
+.container_lg {
+    @apply w-[96%] mx-auto max-w-[1440px];
 }
-.main_container{ 
-  @apply mx-auto max-w-[1340px] w-[96%]
-}
-
-
-
-.banner_bg{
-  background: url('../assets/banner-vecotor.png') top left;
+.main_container {
+    @apply mx-auto max-w-[1340px] w-[96%];
 }
 
-.button_icon{
-  @apply border rounded-full 
+.banner_bg {
+    background: url("../assets/banner-vecotor.png") top left;
+}
+.experience_section_bg {
+    background: url("../assets/Vector.png") top left;
+}
+
+.button_icon {
+    @apply border rounded-full;
+}
+
+.title_text {
+    @apply text-[78px] font-bold leading-normal;
+}
+.text_highlight {
+    @apply text-white bg-black px-2 rounded-md;
 }

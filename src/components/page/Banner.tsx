@@ -7,15 +7,10 @@ const Banner = () => {
         <div className='banner_bg min-h-screen'>
             <Navbar />
             <div className='main_container my-28'>
-                <h1 className='text-[78px] font-bold leading-normal'>
-                    Trusted{" "}
-                    <span className='text-white bg-black px-2 rounded-md '>
-                        Partner
-                    </span>{" "}
-                    for <br /> Your Website{" "}
-                    <span className='text-white bg-black px-2 rounded-md '>
-                        Develop.
-                    </span>
+                <h1 className='title_text'>
+                    Trusted <span className='text_highlight'>Partner</span> for{" "}
+                    <br /> Your Website{" "}
+                    <span className='text_highlight'>Develop.</span>
                 </h1>
                 <div className='grid grid-cols-4 items-center h-fit mt-12'>
                     <div className='w-full relative'>

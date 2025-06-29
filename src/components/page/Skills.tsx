@@ -1,5 +1,4 @@
 "use client";
-import { FaArrowDown } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -9,19 +8,13 @@ import "swiper/css/navigation";
 // import required modules
 import { Navigation } from "swiper/modules";
 import SkillsCard from "../shered/UI/SkillsCard";
+import SectionTag from "../shered/UI/SectionTag";
 const Skills = () => {
     return (
         <div className='main_container text-white bg-black rounded-[40px] p-16'>
             <div className='flex items-center justify-between'>
                 <div className=''>
-                    <div className='flex items-center'>
-                        <p className='border border-white p-4 w-fit rounded-full'>
-                            <FaArrowDown />
-                        </p>
-                        <p className='border border-white p-3 px-5 w-fit rounded-full'>
-                            Why Choose me
-                        </p>
-                    </div>
+                    <SectionTag text="Why Choose me"/>
                     <h2 className='font-bold text-[58px] mt-10 leading-normal'>
                         My Extensive <br /> List of Skills
                     </h2>

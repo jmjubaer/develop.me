@@ -1,4 +1,5 @@
 import Banner from "@/components/page/Banner";
+import ContactUs from "@/components/page/ContactUs";
 import Experience from "@/components/page/Experience";
 import Skills from "@/components/page/Skills";
 import WorkProcess from "@/components/page/WorkProcess";
@@ -11,6 +12,7 @@ const HomePage = () => {
             <Skills />
             <Experience />
             <WorkProcess/>
+            <ContactUs/>
         </div>
     );
 };

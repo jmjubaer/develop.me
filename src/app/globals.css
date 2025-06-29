@@ -32,6 +32,9 @@
 .experience_section_bg {
     background: url("../assets/Vector.png") top left;
 }
+.contact_section_bg {
+    background: url("../assets/contactus-vector.png") bottom left;
+}
 
 .button_icon {
     @apply border rounded-full;

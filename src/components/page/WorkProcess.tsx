@@ -6,16 +6,16 @@ import { workProcesses } from "@/data/data";
 const WorkProcess = () => {
     return (
         <div className='bg-[#141414] main_container secondary_section_bg'>
-            <div className='relative'>
-                <div className='absolute top-1/2 -translate-y-1/2'>
+            <div className='relative '>
+                <div className='lg:absolute lg:top-1/2 lg:-translate-y-1/2'>
                     <SectionTag text='Work Process' />
                 </div>
 
-                <h2 className='text-[58px] font-bold text-center'>
+                <h2 className='sm:text-[58px] text-3xl mt-7 lg:mt-0 font-bold lg:text-center'>
                     My Work Process
                 </h2>
             </div>
-            <div className='grid grid-cols-2 gap-2.5 mt-12'>
+            <div className='grid lg:grid-cols-2 gap-2.5 mt-8 sm:mt-12'>
                 {workProcesses.map((workProcess, index) => (
                     <WorkProcessCard
                         key={index}

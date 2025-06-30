@@ -17,14 +17,14 @@ import { RiTailwindCssFill } from "react-icons/ri";
 const Skills = () => {
     return (
         <div className='-mt-14 bg-black main_container secondary_section_bg'>
-            <div className='flex items-center justify-between'>
+            <div className='flex lg:items-center justify-between flex-col lg:flex-row'>
                 <div className=''>
                     <SectionTag text='Why Choose me' />
-                    <h2 className='font-bold text-[58px] mt-10 leading-normal'>
+                    <h2 className='font-bold text-3xl sm:text-5xl md:text-[58px] sm:mt-10 mt-7 leading-normal'>
                         My Extensive <br /> List of Skills
                     </h2>
                 </div>
-                <div className='border-b border-white w-[350px] leading-loose pb-5 text-right'>
+                <div className='border-b border-white w-full lg:w-[350px] leading-loose pb-5 lg:text-right'>
                     <p>
                         Building the worlds best marketing Your trusted partner
                         for strategy, design, and dev.
@@ -34,13 +34,21 @@ const Skills = () => {
             <div className='mt-14'>
                 {/* todo: change  navigator */}
                 <Swiper
-                    slidesPerView={3}
+                    slidesPerView={1}
                     spaceBetween={5}
+                    breakpoints={{
+                       
+                        640: {
+                            slidesPerView: 2,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                        },
+                    }}
                     loop={true}
                     navigation={true}
                     modules={[Navigation]}
                     className='skills-swiper '>
-               
                     <SwiperSlide>
                         <SkillsCard
                             title='HTML & CSS'

@@ -10,11 +10,11 @@ const HomePage = () => {
     return (
         <div className=''>
             <Banner />
-            <Skills />
+            {/* <Skills />
             <Experience />
-            <WorkProcess/>
-            <ContactUs/>
-            <Footer></Footer>
+            <WorkProcess/> */}
+            {/* <ContactUs/> */}
+            {/* <Footer></Footer> */}
         </div>
     );
 };

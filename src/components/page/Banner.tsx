@@ -33,7 +33,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className='col-span-3'>
-                        <p className='w-3/4 text-lg mb-10'>
+                        <p className='sm:w-3/4 sm:text-lg sm:mb-10 mb-7'>
                             Building the worlds best marketing websites for over
                             a decade. Your trusted partner for strategy, design,
                             and dev.

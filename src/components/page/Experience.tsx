@@ -19,11 +19,11 @@ const Experience = () => {
                     the best course of action.
                 </p>
             </div>
-            <div className="grid grid-cols-5 main_container items-center mt-[70px]">
+            <div className="grid lg:grid-cols-5 main_container items-center mt-[70px]">
                 <p className="text-[26px] text-center">PREVIOUSLY WORKED ON</p>
                 <div className="col-span-4 flex  flex-wrap">
                     {/* Todo: improve more */}
-                    <Image src={image} alt=""/>
+                    <Image src={image} alt="" className="w-full"/>
                 </div>
             </div>
         </div>

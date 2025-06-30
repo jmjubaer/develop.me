@@ -11,8 +11,8 @@ const HomePage = () => {
         <div className=''>
             <Banner />
             <Skills />
-            {/* <Experience /> */}
-            {/* <WorkProcess/> */}
+            <Experience />
+            <WorkProcess/>
             {/* <ContactUs/> */}
             {/* <Footer></Footer> */}
         </div>

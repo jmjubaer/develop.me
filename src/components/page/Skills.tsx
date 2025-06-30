@@ -9,6 +9,11 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import SkillsCard from "../shered/UI/SkillsCard";
 import SectionTag from "../shered/UI/SectionTag";
+import { FaHtml5 } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { FaWebflow } from "react-icons/fa6";
+import { SiNextdotjs } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
 const Skills = () => {
     return (
         <div className='-mt-14 bg-black main_container secondary_section_bg'>
@@ -35,35 +40,41 @@ const Skills = () => {
                     navigation={true}
                     modules={[Navigation]}
                     className='skills-swiper '>
+               
                     <SwiperSlide>
                         <SkillsCard
                             title='HTML & CSS'
-                            text='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'
-                        />
+                            text='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'>
+                            <FaHtml5 className='text-8xl' />
+                        </SkillsCard>
                     </SwiperSlide>
                     <SwiperSlide>
                         <SkillsCard
                             title='Javascript'
-                            text='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'
-                        />
+                            text='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'>
+                            <IoLogoJavascript className='text-8xl' />
+                        </SkillsCard>
                     </SwiperSlide>
                     <SwiperSlide>
                         <SkillsCard
                             title='Webflow'
-                            text='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'
-                        />
+                            text='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'>
+                            <FaWebflow className='text-8xl' />
+                        </SkillsCard>
                     </SwiperSlide>
                     <SwiperSlide>
                         <SkillsCard
                             title='Next js'
-                            text='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'
-                        />
+                            text='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'>
+                            <SiNextdotjs className='text-8xl' />
+                        </SkillsCard>
                     </SwiperSlide>
                     <SwiperSlide>
                         <SkillsCard
                             title='Tailwind CSS'
-                            text='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'
-                        />
+                            text='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'>
+                            <RiTailwindCssFill className='text-8xl' />
+                        </SkillsCard>
                     </SwiperSlide>
                 </Swiper>
             </div>

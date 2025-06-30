@@ -3,7 +3,7 @@ import SectionTag from "../shered/UI/SectionTag";
 import image from "@/assets/company.png"
 const Experience = () => {
     return (
-        <div className='experience_section_bg'>
+        <div className='experience_section_bg pt-32'>
             <div className=' w-4/6 mx-auto'>
                 <div className='flex justify-end'>
                     <SectionTag text='About' />

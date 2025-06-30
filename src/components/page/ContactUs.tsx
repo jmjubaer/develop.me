@@ -49,7 +49,7 @@ const ContactUs = () => {
                             className='py-3 w-full outline-0 border-b mt-7 opacity-50 focus:opacity-100'
                         />
                         <div className='mt-11 flex items-center gap-3'>
-                            <button className='border cursor-pointer border-white rounded-full py-2 pr-7 flex items-center gap-3'>
+                            <button type="button" className='border cursor-pointer border-white rounded-full py-2 pr-7 flex items-center gap-3'>
                                 <span className='inline-block border rounded-full'>
                                     <PiPaperPlaneTiltFill className=' m-2 text-lg' />
                                 </span>
